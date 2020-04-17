@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #737373;
+  font-family: New Times Roman;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1100px;
+  background: #1a1a1a;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1100px;
+  background-color: #333399;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ff3300;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+a:visited {
+    color: white;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+p {
+    color: white;
+}
+
+ol {
+	color: white;
+    text-align: left;
+{
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2><img src="http://r70.cooltext.com/rendered/cooltext354818520513220.gif"/></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band </a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <li><img src="https://cdn11.bigcommerce.com/s-sq9zkarfah/images/stencil/1280x1280/products/124412/117681/Creed-Band-Logo-Vinyl-Decal-Sticker__45801.1507850562.jpg?c=2&imbypass=on" height=130 width=130/></li>
+  </nav>
+  
+  <article>
+    <h1 style="font-size:50px;color:white;border:10px solid black;">Top Albums</h1>
+    
+    <table align="center">
+    
+    
+    <tr>
+    <td><th style="color:white;">My Own Prison</th></td>
+    <td><img src="https://i.pinimg.com/236x/7f/4f/e2/7f4fe252143eed821dec62c8de271be2.jpg" height="250" width="250"></td>
+    <td>
+    	<ol>
+        <li>Torn</li>
+        <li>Ode</li>
+        <li>My Own Prison</li>
+        <li>Pity for a Dime</li>
+        <li>In America</li>
+        <li>Illusion</li>
+        <li>Unforgiven</li>
+        <li>Sister</li>
+        <li>What's This Life For</li>
+        <li>One</li>
+        </ol>
+    </td>
+    </tr>
+    
+    <tr>
+    <td><th style="color:white;">Human Clay</th></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Human_Clay_Cover.jpg" height="250" width="250"/></td>
+    <td>
+    	<ol>
+        <li>Are You Ready?</li>
+        <li>What If</li>
+        <li>Beautiful</li>
+        <li>Say I</li>
+        <li>Wrong Way</li>
+        <li>Faceless Man</li>
+        <li>Never Die</li>
+        <li>With Arms Wide Open</li>
+        <li>Higher</li>
+        <li>Wash Away Those Years</li>
+        <li>Inside Us All</li>
+        <li>With Arms Wide Open (New Version With Strings)</li>
+        </ol>
+    </td>
+    </tr>
+    
+    <tr>
+    <td><th style="color:white;">Greatest Hits</th></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/en/9/98/Creed_Greatest_Hits.jpg" height="250" width="250"/></td>
+    <td>
+    	<ol>
+        <li>Torn</li>
+        <li>My Own Prison</li>
+        <li>What's This Life For</li>
+        <li>One</li>
+        <li>Are You Ready?</li>
+        <li>Higher</li>
+        <li>With Arms Wide Open</li>
+        <li>What If</li>
+        <li>One Last Breath</li>
+        <li>Don't Stop Dancing</li>
+        <li>Bullets</li>
+        <li>My Sacrifice</li>
+        <li>Weathered</li>
+        </ol>
+    </tr>
+    
+    </table>
+  </article>
+  
+</section>
+
+<footer>
+    <i>Copyright &copy; 2020 Micah Preston. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>
